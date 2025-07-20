@@ -145,7 +145,7 @@ export const projectCategories = [
   { id: 'infrastructure', name: 'Infrastructure', count: projects.filter(p => p.category === 'Infrastructure').length },
   { id: 'automation', name: 'Automation', count: projects.filter(p => p.category === 'Automation').length },
   { id: 'web-development', name: 'Web Development', count: projects.filter(p => p.category === 'Web Development').length },
-  { id: 'devops', name: 'DevOps', count: projects.filter(p => p.category === 'DevOps').length }
+  // Removed 'DevOps' category as no projects currently use it
 ]
 
 export const featuredProjects = projects.filter(project => project.featured)

@@ -198,7 +198,6 @@ const ContactPage = () => {
       await new Promise(resolve => setTimeout(resolve, 2000))
       
       // In a real application, you would send the form data to your backend
-      console.log('Form submitted:', formData)
       
       setSubmitStatus('success')
       setFormData({
